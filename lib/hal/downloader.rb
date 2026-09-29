@@ -4,6 +4,7 @@ require_relative 'downloader/version'         # before client: Client::USER_AGEN
 
 require_relative 'downloader/archive'
 require_relative 'downloader/author'
+require_relative 'downloader/cli'
 require_relative 'downloader/client'          # after version
 require_relative 'downloader/error'           # before errors below that subclass Error
 require_relative 'downloader/http_error'
