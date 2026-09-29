@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hal="http://hal.archives-ouvertes.fr/" xmlns:gml="http://www.opengis.net/gml/3.3/" xmlns:gmlce="http://www.opengis.net/gml/3.3/ce" version="1.1" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://api.archives-ouvertes.fr/documents/aofr-sword.xsd">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>HAL TEI export of hal-01207234v3</title>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>CCSD</distributor>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 - Universal</licence>
+        </availability>
+        <date when="2026-09-29T10:54:48+02:00"/>
+      </publicationStmt>
+      <sourceDesc>
+        <p part="N">HAL API Platform</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <biblFull>
+          <titleStmt>
+            <title xml:lang="en">Constructive solution of inverse parametric linear/quadratic programming problems</title>
+            <author role="aut">
+              <persName>
+                <forename type="first">Ngoc Anh</forename>
+                <surname>Nguyen</surname>
+              </persName>
+              <email type="md5">4fd3e4483e276cb3bccabe559ee697be</email>
+              <email type="domain">gmail.com</email>
+              <idno type="idhal" notation="numeric">983098</idno>
+              <idno type="halauthorid" notation="string">912422-983098</idno>
+              <affiliation ref="#struct-187252"/>
+              <affiliation ref="#struct-1289"/>
+            </author>
+            <author role="aut">
+              <persName>
+                <forename type="first">Sorin</forename>
+                <surname>Olaru</surname>
+              </persName>
+              <email type="md5">7969859a49ad8fccd679394e5fd569f1</email>
+              <email type="domain">centralesupelec.fr</email>
+              <idno type="idhal" notation="string">sorin-olaru</idno>
+              <idno type="idhal" notation="numeric">18566</idno>
+              <idno type="halauthorid" notation="string">2544-18566</idno>
+              <idno type="RESEARCHERID">http://www.researcherid.com/rid/F-5844-2013</idno>
+              <idno type="ORCID">https://orcid.org/0000-0003-3256-9595</idno>
+              <idno type="GOOGLE SCHOLAR">https://scholar.google.fr/citations?user=0qmL9YgAAAAJ&amp;hl=fr&amp;oi=ao</idno>
+              <idno type="IDREF">https://www.idref.fr/092820794</idno>
+              <idno type="RESEARCHERID">http://www.researcherid.com/rid/http://www.researcherid.com/rid/F-5844-2013</idno>
+              <affiliation ref="#struct-1289"/>
+            </author>
+            <author role="aut">
+              <persName>
+                <forename type="first">Pedro</forename>
+                <surname>Rodriguez-Ayerbe</surname>
+              </persName>
+              <email type="md5">fa189bf67092b6f7c8b5f939abdd9c9a</email>
+              <email type="domain">centralesupelec.fr</email>
+              <idno type="idhal" notation="string">pedro-rodriguez-ayerbe</idno>
+              <idno type="idhal" notation="numeric">8959</idno>
+              <idno type="halauthorid" notation="string">6306-8959</idno>
+              <idno type="ORCID">https://orcid.org/0000-0001-7452-4155</idno>
+              <idno type="IDREF">https://www.idref.fr/076908631</idno>
+              <affiliation ref="#struct-1289"/>
+            </author>
+            <author role="aut">
+              <persName>
+                <forename type="first">Morten</forename>
+                <surname>Hovd</surname>
+              </persName>
+              <idno type="halauthorid">300863-0</idno>
+              <affiliation ref="#struct-228633"/>
+            </author>
+            <author role="aut">
+              <persName>
+                <forename type="first">Ion</forename>
+                <surname>Necoara</surname>
+              </persName>
+              <idno type="halauthorid">913993-0</idno>
+              <affiliation ref="#struct-435687"/>
+            </author>
+            <editor role="depositor">
+              <persName>
+                <forename>Ngoc Anh</forename>
+                <surname>Nguyen</surname>
+              </persName>
+              <email type="md5">4fd3e4483e276cb3bccabe559ee697be</email>
+              <email type="domain">gmail.com</email>
+            </editor>
+          </titleStmt>
+          <editionStmt>
+            <edition n="v1">
+              <date type="whenSubmitted">2015-09-30 13:30:41</date>
+            </edition>
+            <edition n="v2">
+              <date type="whenSubmitted">2015-10-06 10:07:11</date>
+            </edition>
+            <edition n="v3" type="current">
+              <date type="whenSubmitted">2016-09-14 23:35:59</date>
+              <date type="whenModified">2026-01-15 17:12:03</date>
+              <date type="whenReleased">2016-09-15 16:42:45</date>
+              <date type="whenProduced">2015-09-30</date>
+              <date type="whenEndEmbargoed">2016-09-14</date>
+              <ref type="file" target="https://hal.science/hal-01207234v3/document">
+                <date notBefore="2016-09-14"/>
+              </ref>
+              <ref type="file" subtype="author" n="1" target="https://hal.science/hal-01207234v3/file/IPCP_JOTA.pdf" id="file-1366609-1448188">
+                <date notBefore="2016-09-14"/>
+              </ref>
+            </edition>
+            <respStmt>
+              <resp>contributor</resp>
+              <name key="315176">
+                <persName>
+                  <forename>Ngoc Anh</forename>
+                  <surname>Nguyen</surname>
+                </persName>
+                <email type="md5">4fd3e4483e276cb3bccabe559ee697be</email>
+                <email type="domain">gmail.com</email>
+              </name>
+            </respStmt>
+          </editionStmt>
+          <publicationStmt>
+            <distributor>CCSD</distributor>
+            <idno type="halId">hal-01207234</idno>
+            <idno type="halUri">https://hal.science/hal-01207234</idno>
+            <idno type="halBibtex">nguyen:hal-01207234</idno>
+            <idno type="halRefHtml">[Research Report] CentraleSupélec. 2015</idno>
+            <idno type="halRef">[Research Report] CentraleSupélec. 2015</idno>
+            <availability status="restricted">
+              <licence target="https://about.hal.science/hal-authorisation-v1/">HAL Authorization<ref corresp="#file-1366609-1448188"/></licence>
+            </availability>
+          </publicationStmt>
+          <seriesStmt>
+            <idno type="stamp" n="SUPELEC">SUPELEC</idno>
+            <idno type="stamp" n="CNRS">CNRS - Centre national de la recherche scientifique</idno>
+            <idno type="stamp" n="UNIV-PSUD">Université Paris Sud - Paris XI</idno>
+            <idno type="stamp" n="SUP_LSS">Laboratoire des Signaux et Systèmes</idno>
+            <idno type="stamp" n="SUP_SYSTEMES" corresp="SUP_LSS">Pôle Systèmes</idno>
+            <idno type="stamp" n="CENTRALESUPELEC">Ecole CentraleSupélec</idno>
+            <idno type="stamp" n="TDS-MACS">Réseau de recherche en Théorie des Systèmes Distribués, Modélisation, Analyse et Contrôle des Systèmes</idno>
+            <idno type="stamp" n="LARA">LARA</idno>
+            <idno type="stamp" n="UNIV-PARIS-SACLAY">Université Paris-Saclay</idno>
+            <idno type="stamp" n="UNIV-PSUD-SACLAY" corresp="UNIV-PARIS-SACLAY">Université Paris Sud pour Paris Saclay</idno>
+            <idno type="stamp" n="CENTRALESUPELEC-SACLAY" corresp="UNIV-PARIS-SACLAY">CENTRALESUPELEC-SACLAY</idno>
+            <idno type="stamp" n="GS-ENGINEERING">Graduate School Sciences de l'Ingénierie et des Systèmes</idno>
+            <idno type="stamp" n="GS-COMPUTER-SCIENCE">Graduate School Computer Science</idno>
+          </seriesStmt>
+          <notesStmt>
+            <note type="report" n="6">Research Report</note>
+          </notesStmt>
+          <sourceDesc>
+            <biblStruct>
+              <analytic>
+                <title xml:lang="en">Constructive solution of inverse parametric linear/quadratic programming problems</title>
+                <author role="aut">
+                  <persName>
+                    <forename type="first">Ngoc Anh</forename>
+                    <surname>Nguyen</surname>
+                  </persName>
+                  <email type="md5">4fd3e4483e276cb3bccabe559ee697be</email>
+                  <email type="domain">gmail.com</email>
+                  <idno type="idhal" notation="numeric">983098</idno>
+                  <idno type="halauthorid" notation="string">912422-983098</idno>
+                  <affiliation ref="#struct-187252"/>
+                  <affiliation ref="#struct-1289"/>
+                </author>
+                <author role="aut">
+                  <persName>
+                    <forename type="first">Sorin</forename>
+                    <surname>Olaru</surname>
+                  </persName>
+                  <email type="md5">7969859a49ad8fccd679394e5fd569f1</email>
+                  <email type="domain">centralesupelec.fr</email>
+                  <idno type="idhal" notation="string">sorin-olaru</idno>
+                  <idno type="idhal" notation="numeric">18566</idno>
+                  <idno type="halauthorid" notation="string">2544-18566</idno>
+                  <idno type="RESEARCHERID">http://www.researcherid.com/rid/F-5844-2013</idno>
+                  <idno type="ORCID">https://orcid.org/0000-0003-3256-9595</idno>
+                  <idno type="GOOGLE SCHOLAR">https://scholar.google.fr/citations?user=0qmL9YgAAAAJ&amp;hl=fr&amp;oi=ao</idno>
+                  <idno type="IDREF">https://www.idref.fr/092820794</idno>
+                  <idno type="RESEARCHERID">http://www.researcherid.com/rid/http://www.researcherid.com/rid/F-5844-2013</idno>
+                  <affiliation ref="#struct-1289"/>
+                </author>
+                <author role="aut">
+                  <persName>
+                    <forename type="first">Pedro</forename>
+                    <surname>Rodriguez-Ayerbe</surname>
+                  </persName>
+                  <email type="md5">fa189bf67092b6f7c8b5f939abdd9c9a</email>
+                  <email type="domain">centralesupelec.fr</email>
+                  <idno type="idhal" notation="string">pedro-rodriguez-ayerbe</idno>
+                  <idno type="idhal" notation="numeric">8959</idno>
+                  <idno type="halauthorid" notation="string">6306-8959</idno>
+                  <idno type="ORCID">https://orcid.org/0000-0001-7452-4155</idno>
+                  <idno type="IDREF">https://www.idref.fr/076908631</idno>
+                  <affiliation ref="#struct-1289"/>
+                </author>
+                <author role="aut">
+                  <persName>
+                    <forename type="first">Morten</forename>
+                    <surname>Hovd</surname>
+                  </persName>
+                  <idno type="halauthorid">300863-0</idno>
+                  <affiliation ref="#struct-228633"/>
+                </author>
+                <author role="aut">
+                  <persName>
+                    <forename type="first">Ion</forename>
+                    <surname>Necoara</surname>
+                  </persName>
+                  <idno type="halauthorid">913993-0</idno>
+                  <affiliation ref="#struct-435687"/>
+                </author>
+              </analytic>
+              <monogr>
+                <imprint>
+                  <date type="datePub">2015-09-30</date>
+                </imprint>
+                <authority type="institution">CentraleSupélec</authority>
+              </monogr>
+            </biblStruct>
+          </sourceDesc>
+          <profileDesc>
+            <langUsage>
+              <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+              <classCode scheme="halDomain" n="spi.auto">Engineering Sciences [physics]/Automatic</classCode>
+              <classCode scheme="halTypology" n="REPORT">Reports</classCode>
+              <classCode scheme="halOldTypology" n="REPORT">Reports</classCode>
+              <classCode scheme="halTreeTypology" n="REPORT.RESREPORT">Reports - Research report</classCode>
+            </textClass>
+            <abstract xml:lang="en">
+              <p>Parametric convex programming has received a lot of attention, since ithas many applications in chemical engineering, control engineering, signal processing,etc. Further, inverse optimality plays an important role in many contexts, e.g.,image processing, motion planning. This paper introduces a constructive solution ofthe inverse optimality problem for the class of continuous piecewise affine functions.The main idea is based on the convex lifting concept. Accordingly, an algorithm toconstruct convex liftings of a given convexly liftable partition will be put forward.Following this idea, an important result will be presented in this article: any continuouspiecewise affine function defined over a polytopic partition is the solution of aparametric linear/quadratic programming problem. Regarding linear optimal control,it will be shown that any continuous piecewise affine control law can be obtained viaa linear optimal control problem with the control horizon at most equal to 2 predictionsteps.</p>
+            </abstract>
+          </profileDesc>
+        </biblFull>
+      </listBibl>
+    </body>
+    <back>
+      <listOrg type="structures">
+        <org type="laboratory" xml:id="struct-187252" status="INCOMING">
+          <orgName>Johannes Kepler University</orgName>
+          <desc>
+            <address>
+              <addrLine>Linz</addrLine>
+              <country key="AT"/>
+            </address>
+          </desc>
+          <listRelation>
+            <relation active="#struct-1099890" type="direct"/>
+          </listRelation>
+        </org>
+        <org type="laboratory" xml:id="struct-1289" status="OLD">
+          <idno type="IdRef">133818799</idno>
+          <idno type="RNSR">199812842X</idno>
+          <orgName>Laboratoire des signaux et systèmes</orgName>
+          <orgName type="acronym">L2S</orgName>
+          <date type="end">2019-12-31</date>
+          <desc>
+            <address>
+              <addrLine>Plateau de Moulon 3 rue Joliot Curie 91192 GIF SUR YVETTE CEDEX</addrLine>
+              <country key="FR"/>
+            </address>
+            <ref type="url">http://www.l2s.centralesupelec.fr/</ref>
+          </desc>
+          <listRelation>
+            <relation active="#struct-92966" type="direct"/>
+            <relation active="#struct-411575" type="direct"/>
+            <relation name="UMR8506" active="#struct-441569" type="direct"/>
+          </listRelation>
+        </org>
+        <org type="regrouplaboratory" xml:id="struct-228633" status="VALID">
+          <orgName>Department of Engineering Cybernetics [Trondheim]</orgName>
+          <orgName type="acronym">ITK NTNU</orgName>
+          <desc>
+            <address>
+              <addrLine>Norwegian University of Science and Technology, Faculty of Information Technology and Electrical Engineering, N-7034 Trondheim</addrLine>
+              <country key="NO"/>
+            </address>
+            <ref type="url">https://www.ntnu.edu/itk</ref>
+          </desc>
+          <listRelation>
+            <relation active="#struct-50794" type="direct"/>
+            <relation active="#struct-264844" type="indirect"/>
+          </listRelation>
+        </org>
+        <org type="department" xml:id="struct-435687" status="VALID">
+          <orgName>Department of Automatic Control and Systems Engineering [Bucharest]</orgName>
+          <desc>
+            <address>
+              <addrLine>Splaiul Independentei nr. 313, sector 6, 060042, Bucharest</addrLine>
+              <country key="RO"/>
+            </address>
+            <ref type="url">https://acse.pub.ro/</ref>
+          </desc>
+          <listRelation>
+            <relation active="#struct-475356" type="direct"/>
+            <relation active="#struct-524560" type="indirect"/>
+          </listRelation>
+        </org>
+        <org type="regroupinstitution" xml:id="struct-1099890" status="VALID">
+          <idno type="IdRef">080677193</idno>
+          <idno type="ISNI">0000000119415140</idno>
+          <orgName>University of Linz - Johannes Kepler Universität Linz</orgName>
+          <orgName type="acronym">JKU</orgName>
+          <date type="start">1966-01-01</date>
+          <desc>
+            <address>
+              <addrLine>Altenberger Straße 694040 Linz, Austria</addrLine>
+              <country key="AT"/>
+            </address>
+            <ref type="url">https://www.jku.at/</ref>
+          </desc>
+        </org>
+        <org type="institution" xml:id="struct-92966" status="OLD">
+          <idno type="ROR">https://ror.org/028rypz17</idno>
+          <orgName>Université Paris-Sud - Paris 11</orgName>
+          <orgName type="acronym">UP11</orgName>
+          <date type="end">2019-12-31</date>
+          <desc>
+            <address>
+              <addrLine>Bâtiment 300 - 91405 Orsay cedex</addrLine>
+              <country key="FR"/>
+            </address>
+            <ref type="url">http://www.u-psud.fr/</ref>
+          </desc>
+        </org>
+        <org type="institution" xml:id="struct-411575" status="VALID">
+          <idno type="IdRef">184443237</idno>
+          <idno type="ROR">https://ror.org/019tcpt25</idno>
+          <orgName>CentraleSupélec</orgName>
+          <desc>
+            <address>
+              <addrLine>3, rue Joliot Curie,Plateau de Moulon,91192 GIF-SUR-YVETTE Cedex</addrLine>
+              <country key="FR"/>
+            </address>
+            <ref type="url">http://www.centralesupelec.fr</ref>
+          </desc>
+        </org>
+        <org type="regroupinstitution" xml:id="struct-441569" status="VALID">
+          <idno type="IdRef">02636817X</idno>
+          <idno type="ISNI">0000000122597504</idno>
+          <idno type="ROR">https://ror.org/02feahw73</idno>
+          <orgName>Centre National de la Recherche Scientifique</orgName>
+          <orgName type="acronym">CNRS</orgName>
+          <date type="start">1939-10-19</date>
+          <desc>
+            <address>
+              <country key="FR"/>
+            </address>
+            <ref type="url">https://www.cnrs.fr/</ref>
+          </desc>
+        </org>
+        <org type="institution" xml:id="struct-50794" status="VALID">
+          <idno type="IdRef">077414217</idno>
+          <idno type="ROR">https://ror.org/05xg72x27</idno>
+          <orgName>Norwegian University of Science and Technology [Trondheim]</orgName>
+          <orgName type="acronym">NTNU</orgName>
+          <desc>
+            <address>
+              <addrLine>NO-7491 Trondheim</addrLine>
+              <country key="NO"/>
+            </address>
+            <ref type="url">https://www.ntnu.edu/</ref>
+          </desc>
+          <listRelation>
+            <relation active="#struct-264844" type="direct"/>
+          </listRelation>
+        </org>
+        <org type="regroupinstitution" xml:id="struct-264844" status="VALID">
+          <idno type="IdRef">077414217</idno>
+          <idno type="ISNI">0000000115162393</idno>
+          <idno type="ROR">https://ror.org/05xg72x27</idno>
+          <idno type="Wikidata">Q314536</idno>
+          <orgName>Norwegian University of Science and Technology =  Norges Teknisk-Naturvitenskapelige Universitet = Norjan teknis-luonnontieteellinen yliopisto</orgName>
+          <orgName type="acronym">NTNU</orgName>
+          <date type="start">1996-01-01</date>
+          <desc>
+            <address>
+              <country key="NO"/>
+            </address>
+            <ref type="url">https://www.ntnu.edu/</ref>
+          </desc>
+        </org>
+        <org type="laboratory" xml:id="struct-475356" status="VALID">
+          <orgName>Faculty of Automatic Control and Computer Science [Bucharest]</orgName>
+          <desc>
+            <address>
+              <addrLine>Splaiul Independentei nr. 313, sector 6, Bucuresti</addrLine>
+              <country key="RO"/>
+            </address>
+            <ref type="url">http://www.upb.ro/en/the-faculty-of-automatic-control-and-computer-science.html</ref>
+          </desc>
+          <listRelation>
+            <relation active="#struct-524560" type="direct"/>
+          </listRelation>
+        </org>
+        <org type="institution" xml:id="struct-524560" status="VALID">
+          <idno type="IdRef">067072089</idno>
+          <idno type="ISNI">000000012109901X</idno>
+          <idno type="ROR">https://ror.org/0558j5q12</idno>
+          <idno type="Wikidata">Q1465448</idno>
+          <orgName>Polytechnic University of Bucharest [Romania] = Université Politehnica de Bucarest [Roumanie] = Universitatea Națională de Știință și Tehnologie Politehnica București [România]</orgName>
+          <orgName type="acronym">UPB</orgName>
+          <date type="start">1818-01-01</date>
+          <desc>
+            <address>
+              <addrLine>Splaiul Independenței nr. 313, Sector 6, București, România, cod poștal RO-060042</addrLine>
+              <country key="RO"/>
+            </address>
+            <ref type="url">https://upb.ro/</ref>
+          </desc>
+        </org>
+      </listOrg>
+    </back>
+  </text>
+</TEI>
