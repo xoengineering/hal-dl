@@ -50,5 +50,5 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { File.basename it }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'dl-core', '~> 0.1'
+  spec.add_dependency 'dl-core', '~> 0.2'
 end
