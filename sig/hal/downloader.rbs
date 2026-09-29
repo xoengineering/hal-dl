@@ -1,0 +1,5 @@
+module HAL
+  module Downloader
+    VERSION: String
+  end
+end
