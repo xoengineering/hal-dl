@@ -41,9 +41,13 @@ RSpec.describe HAL::Downloader::MetadataParser do
       expect(metadata.language).to    eq 'en'
       expect(metadata.submit_type).to eq 'file'
     end
+  end
 
-    it "keeps HAL's own BibTeX" do
-      expect(metadata.bibtex).to start_with '@techreport{nguyen:hal-01207234,'
+  describe '#bibtex' do
+    it "is HAL's own BibTeX entry" do
+      parser = described_class.new File.read('spec/fixtures/http/json-hal-01207234.json')
+
+      expect(parser.bibtex).to start_with '@techreport{nguyen:hal-01207234,'
     end
   end
 

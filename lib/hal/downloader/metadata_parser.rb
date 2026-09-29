@@ -11,10 +11,12 @@ module HAL
         @json = JSON.parse json
       end
 
-      def metadata
-        fields = @json.dig('response', 'docs', 0)
-        raise PaperNotFound if fields.nil?
+      # HAL's own BibTeX entry, kept verbatim for metadata.bib
+      def bibtex
+        fields.fetch 'label_bibtex'
+      end
 
+      def metadata
         Metadata.new(
           hal_id:      fields['halId_s'],
           version:     fields['version_i'],
@@ -36,12 +38,15 @@ module HAL
           language:    Array(fields['language_s']).first,
           keywords:    Array(fields['keyword_s']),
           licence:     fields['licence_s'],
-          submit_type: fields['submitType_s'],
-          bibtex:      fields['label_bibtex']
+          submit_type: fields['submitType_s']
         )
       end
 
       private
+
+      def fields
+        @json.dig('response', 'docs', 0) || raise(PaperNotFound)
+      end
 
       # authFullName_s and authIdFormPerson_s are parallel lists; affiliations
       # are "<form id>_FacetSep_<name>_JoinSep_<struct id>_FacetSep_<struct name>"

@@ -22,8 +22,7 @@ module HAL
       :language,
       :keywords,
       :licence,
-      :submit_type,
-      :bibtex
+      :submit_type
     )
   end
 end
