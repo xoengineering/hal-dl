@@ -1,4 +1,4 @@
-## [Unreleased]
+## [0.1.0]
 
 First version. Per-paper offline archive of HAL (hal.science) papers, any version, built on [dl-core](https://github.com/xoengineering/dl-core).
 
